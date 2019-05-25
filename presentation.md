@@ -15,18 +15,6 @@ Me: "Uh..."
 ^
 So, uh, before we dive in, I should perhaps set the stage.
 
-^
-A proof assistant is a bunch of software to help you with writing formal, machine-checked proofs.
-
-^
-And sure, Agda is that, but Agda is also a dependently-typed programming language. 
-
-^
-Turns out if you go deep enough, the Curry-Howard correspondence between proofs and programs kinda... breaks down the distinction.
-
-^
-There will be two main players in this story.
-
 ---
 
 [.header: text-scale(0.53225)]
@@ -48,6 +36,18 @@ Anyway, these run the gamut from "checks if a theorem is provable in first-order
 
 ^
 There's a specific kind of proof assistant that I care about: dependently-typed programming languages. They live in the last category, usually.
+
+^
+A proof assistant is a bunch of software to help you with writing formal, machine-checked proofs.
+
+^
+And sure, Agda is that, but Agda is also a dependently-typed programming language. 
+
+^
+Turns out if you go deep enough, the Curry-Howard correspondence between proofs and programs kinda... breaks down the distinction.
+
+^
+There will be two main players in this story.
 
 ---
 
